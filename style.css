@@ -1,0 +1,459 @@
+html, body {
+    overflow-x: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("https://s3-alpha-sig.figma.com/img/f996/d0b6/1a1f447e69d2501a01940119aa42e5dd?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=A2pk-svBouHVSdETHUN1dQPcBgbq99bRgDXlgpM~C5RqYX3xLYsQ1djvxDPJzIezOJHeifzYyseAfvufaAApmdc0Ji-KtVIDIoaE6nHECYa3~syoYVohAdqGYBDm5kmnG1Dh~gaYIQ~MR5lOFPf7mFQMFGqKBxR4huZOgO5Wzga0NeRzWN0m5388msG38CvF2pE2AyIJ0tXB712KmXg25Y~IxQhtHF4Vl2noPixdZeDwALbpoJ7auU6KPUAFwc72N6cePavCTU3fs6eQt1jf6Uf8PURQe9g78tuwSQcVVO-Mv6DFupS5c6-fYB5sLVkiWc62ROTnrmEr56riA2nnjg__") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    gap: 0px;
+  
+}
+
+
+.background-box {
+    position: absolute;
+    width: 576px;
+    height: 576px;
+    top: 525.63px;
+    left: 1559.8px;
+    background: blue;
+    transform: rotate(-140.53deg);
+    opacity:24%S;
+    z-index:-1;
+    
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.64); 
+    padding: 8px 0px;
+}
+
+nav {
+    width: Fixed (1,440px)px;
+    height: Hug (108px)px;
+    padding: 8px 80px 0px 80px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    background: #FFFFFFA3;
+
+}
+
+nav .logo {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    
+}
+nav .logo img {
+    width: 172px;
+   height: 100px;
+   
+
+}
+
+nav .contact-us {
+    width: 168px;
+    height: 24px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    gap: 0px;
+    opacity: 0px;
+    background: white;
+    border-radius: 16px;
+    margin-left: auto; 
+    
+}
+
+nav .contact-us:hover {
+    background-color: #000C1A;
+    color: #fff;
+}
+
+
+.hero {
+    
+    text-align: center;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.get-started {
+    
+    background-color: #0078FF;
+    color: #fff;
+    width: 300px;
+    margin: 32px
+    }
+
+.get-started:hover {
+        background-color: #0056b3;
+    }
+
+.marketing-image {
+ position: absolute;
+ width: 796px;
+    height: 538px;
+  /*  top: 500px;*/
+    left: 40px;
+    gap: 0px;
+}
+
+.marketing-image {
+    position: relative;
+    width: 796px;
+    height: 538px;
+    margin: 50px auto;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.marketing-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.real-estate-focus {
+   
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.real-estate-focus h2 {
+   
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+   color: #000C1A;
+   background: #fff;
+    margin: 0 auto 20px;
+   
+    
+    }
+
+
+.real-estate-focus .content {
+    display: flex;
+    align-items: flex-start; 
+    gap: 32px;
+   /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;*/
+  
+}
+
+ .real-estate-focus .text {
+    /*width: 733px; /* Fixed width */
+   /*height:  385px; /*auto; /* Allow height to adjust automatically */
+  /* text-align: left;*/
+  display: flex;
+    flex-direction: column;
+   
+}
+
+.real-estate-focus .content .image {
+    width: 507.12px;
+    height: 342px;
+    margin-left: 80px;
+}*/
+
+.real-estate-focus .content .image img {
+
+   /* width: 100%;
+    height: auto;
+    border-radius: 8px;*/
+/*width: 450px;
+height: 342px;
+top: 1549px;
+left: 80px;
+gap: 0px;
+opacity: 0px;*/
+
+}
+
+.real-estate-focus .content .text {
+  /*  width: 733px;
+    height: auto;
+    text-align: left;
+    margin-left: 627px;*/
+}
+
+.real-estate-focus .content .text h3 {
+   /* font-size: 1.5em;
+    margin-bottom: 10px;
+    width: 646px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;*/
+
+}
+
+.real-estate-focus .content .text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.real-estate-focus .content .text .get-started-1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.real-estate-focus .content .text .get-started-1:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 768px) {
+    .real-estate-focus .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .real-estate-focus .content .image,
+    .real-estate-focus .content .text {
+        margin: 20px 0;
+    }
+}
+
+.services {
+    width: 10;
+    padding: 91px 81px;
+    background: linear-gradient(261.57deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(179, 214, 255, 0.12) 90.03%);
+    border-radius: 32px 0px 0px 0px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 48px;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.card .icon {
+    font-size: 24px;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+/*.icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: #e9e9e9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}*/
+
+.icon {
+    font-size: 24px;
+    color: #0078FF; /* Blue color for icons */
+}
+
+.card h3 {
+   /* font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;*/
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 22px;
+   
+    margin-top: 13px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.get-started {
+    background-color: #0078FF;
+    color: #fff;
+    padding: 16.5px 64px;
+    border: none;
+    border-radius: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 32px;
+    transition: background-color 0.3s;
+}
+
+.get-started:hover {
+    background-color: #0056b3;
+}
+
+.digital-landscape {
+    display: flex;
+    flex-direction: column;
+    width: 1278px;
+    background: linear-gradient(261.57deg, rgba(0, 111, 237, 0.12) 18.01%, rgba(179, 214, 255, 0.12) 90.03%);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.digital-landscape h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000C1A;
+    margin-bottom: 10px;
+}
+
+.digital-landscape p {
+    font-size: 18px;
+    color: #263238;
+    margin-bottom: 30px;
+}
+
+.digital-landscape-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+    justify-content: space-between;
+}
+
+.digital-card {
+    background-color: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+
+.card-text{
+display:flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+
+.digital-landscape-card{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.digital-icon-container {
+    width: 50px;
+    height: 50px;
+    background-color: #0078FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.digital-icon {
+    font-size: 24px;
+}
+
+.digital-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000C1A;
+}
+
+.digital-card p {
+    font-size: 14px;
+    color: #263238;
+}
+.digital-landscape-image{
+    flex-grow: 4;
+}
+
+.digital-landscape-image img {
+    width: 600px;
+    
+
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 768px) {
+    .services-content, .digital-landscape-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service-image, .digital-landscape-image {
+        margin-top: 20px;
+    }
+}
